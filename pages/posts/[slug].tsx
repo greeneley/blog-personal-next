@@ -8,7 +8,7 @@ import { getFileBySlug, getFiles } from 'lib/mdx';
 import MDXComponents from '@theme/components/MDX/MDXComponents';
 import Tweet from '@theme/components/Tweet';
 import { FrontMatterPost, PostType } from 'types/post';
-
+import Loading from 'core/components/Loading';
 interface BlogProps {
   post?: FrontMatterPost;
   ogImage: string;
@@ -18,8 +18,8 @@ interface BlogProps {
 const Blog = ({ post, ogImage, tweets }: BlogProps) => {
   const { isFallback } = useRouter();
 
-  if (isFallback || !post) {
-    return <div>Loading...</div>;
+  if (isFallback || post) {
+    return <Loading />;
   }
 
   const StaticTweet = ({ id }: { id: string }) => {
