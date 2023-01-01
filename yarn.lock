@@ -2169,14 +2169,6 @@
     "@visx/event" "2.1.2"
     prop-types "^15.5.10"
 
-"@visx/event@1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@visx/event/-/event-1.6.1.tgz#db806405ab2b124e82a0de1e2da36445e838cbc2"
-  integrity sha512-JeZXW5lE2xWYEbwTJn7srVQfEcxu1Li8K6GeCBtMJ7MbeMkSUgd0SaJcGuf40VBMsG2qxAF7h1N/Rm5pTufowg==
-  dependencies:
-    "@types/react" "*"
-    "@visx/point" "1.6.1"
-
 "@visx/event@2.1.2":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@visx/event/-/event-2.1.2.tgz#f714e705b8702e6bac2c11c4ae667535460e50c1"
@@ -2184,6 +2176,14 @@
   dependencies:
     "@types/react" "*"
     "@visx/point" "2.1.0"
+
+"@visx/event@2.17.0":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@visx/event/-/event-2.17.0.tgz#220c7674505e0d7a55f36bce9575482a7fa7dc23"
+  integrity sha512-fg2UWo89RgKgWWnnqI+i7EF8Ry+3CdMHTND4lo4DyJvcZZUCOwhxCHMQ4/PHW0EAUfxI51nGadcE1BcEVR5zWw==
+  dependencies:
+    "@types/react" "*"
+    "@visx/point" "2.17.0"
 
 "@visx/group@1.6.1":
   version "1.6.1"
@@ -2195,15 +2195,15 @@
     classnames "^2.2.5"
     prop-types "^15.6.2"
 
-"@visx/point@1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@visx/point/-/point-1.6.1.tgz#16e1039c40572349b04acba2f38010c06de5d84d"
-  integrity sha512-jVZPyYg9kXB/4bdlh0XxZGamCU/cMu9+JD1PI+kLirZtLJ62DEJfK/UkAMSqB/sGkUojXwR4cTBHn45afcis8g==
-
 "@visx/point@2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@visx/point/-/point-2.1.0.tgz#b3e263826f28b3a170d6604dea8ffa27a4b9ac3b"
   integrity sha512-vVnfI7oqjjttkn05Xi/ooR0UqQRoGf68lyT3SOl0WPHvIQBGNh3XoVUBHDr15/NUkfErgK6TNlfXY763YncPWg==
+
+"@visx/point@2.17.0":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@visx/point/-/point-2.17.0.tgz#c11f1efee5241bcd612a29f3b3099cb435c9604e"
+  integrity sha512-fUdGQBLGaSVbFTbQ6k+1nPisbqYjTjAdo9FhlwLd3W3uyXN/39Sx2z3N2579sVNBDzmCKdYNQIU0HC+/3Vqo6w==
 
 "@visx/responsive@1.6.1":
   version "1.6.1"
