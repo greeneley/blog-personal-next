@@ -30,7 +30,7 @@
   "dependencies": {
     "@codesandbox/sandpack-react": "^1.2.2",
     "@visx/clip-path": "1.6.1",
-    "@visx/curve": "1.6.1",
+    "@visx/curve": "2.17.0",
     "@visx/drag": "2.1.2",
     "@visx/event": "1.6.1",
     "@visx/group": "1.6.1",
